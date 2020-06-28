@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white"
+    tools:context=".ComplaintActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_marginBottom="40px"
+        android:background="@color/grey"
+        android:gravity="center"
+        android:padding="10dp"
+        android:src="@drawable/logo"
+        android:text=""
+        android:textAllCaps="true"
+        android:textSize="16sp" />
+
+    <!--<TextView-->
+
+    <!--android:id="@+id/textView"-->
+    <!--android:layout_marginLeft="8px"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Country" />-->
+
+    <!--<Spinner-->
+
+    <!--android:id="@+id/spinner1"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="36dp"-->
+    <!--android:layout_marginBottom="40px"-->
+    <!--android:entries="@array/country_arrays"-->
+    <!--android:prompt="@string/country_prompt" />-->
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_marginLeft="8px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Type Of Complaints" />
+
+    <Spinner
+
+        android:id="@+id/spinner4"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_marginBottom="40px"
+        android:entries="@array/select_type"
+        android:prompt="@string/select_complaint" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_marginLeft="8px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description" />
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40px"/>
+
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_marginLeft="8px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date" />
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40px"/>
+
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_marginLeft="8px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hours" />
+
+    <Spinner
+
+        android:id="@+id/spinner5"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_marginBottom="40px"
+        android:entries="@array/select_hours"
+        android:prompt="@string/select_hour" />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20px"
+        android:text="Location" />
+
+    <EditText
+        android:id="@+id/location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40px"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20px"
+        android:text="Upload Picture" />
+
+    <ImageView
+        android:id="@+id/IdProf"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="10dp" />
+
+
+    <Button
+        android:id="@+id/UploadBtn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="40px"
+
+        android:background="@color/cardview_shadow_start_color"
+        android:text="Upload"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="Submit" />
+
+
+</LinearLayout>

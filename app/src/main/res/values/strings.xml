@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">E-complaint</string>
+
+    <string name="country_prompt">Choose a country</string>
+
+    <string-array name="country_arrays">
+        <item>Malaysia</item>
+
+    </string-array>
+
+    <string name="select_person">Choose a country</string>
+
+    <string-array name="total_person">
+        <item>1</item>
+        <item>2 </item>
+        <item>3</item>
+        <item>4</item>
+
+    </string-array>
+
+    <string name="select_complaint">Choose a city</string>
+
+    <string-array name="select_type">
+        <item>Vandalisme</item>
+        <item>Road</item>
+        <item>Garbage</item>
+        <item>Water</item>
+
+    </string-array>
+
+
+    <string name="select_time">Choose a time</string>
+
+    <string-array name="select_times">
+        <item>Morning</item>
+        <item>Evening </item>
+
+    </string-array>
+
+    <string name="select_hour">Choose a time</string>
+
+    <string-array name="select_hours">
+        <item>8.00 AM</item>
+        <item>9.00 AM</item>
+        <item>10.00 AM</item>
+        <item>11.00 AM</item>
+        <item>12.00 PM</item>
+        <item>1.00 PM</item>
+        <item>2.00 PM</item>
+        <item>3.00 PM</item>
+
+    </string-array>
+</resources>

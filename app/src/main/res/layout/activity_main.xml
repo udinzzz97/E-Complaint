@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/grey"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <ImageView
+        android:layout_width="337dp"
+        android:layout_height="140dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:src="@drawable/logo"
+
+        android:text="Welcome to Golf App"
+        android:textAllCaps="true"
+        android:textSize="16sp" />
+
+
+    <Button
+        android:id="@+id/add_complaint"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:background="@color/colorPrimary"
+        android:text="New Complaint"
+        android:drawableLeft="@drawable/booking"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/manage_complaint"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:background="@color/colorPrimary"
+        android:text="Manage Complaint"
+        android:drawableLeft="@drawable/history"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/check_status"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:background="@color/colorPrimary"
+        android:text="Check status"
+        android:drawableLeft="@drawable/group"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/profile"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:drawableLeft="@drawable/key"
+        android:background="@color/colorPrimary"
+        android:text="profile"
+        android:padding="10dp"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/sign_out_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/signout"
+        android:background="@color/colorPrimary"
+        android:text="Sign Out"
+        android:textColor="@color/white" />
+
+
+</LinearLayout>

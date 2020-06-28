@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="50px"
+    tools:context=".AdminDashboardActivity">
+
+
+    <ImageView
+        android:layout_marginTop="300px"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:src="@drawable/logo"
+
+        android:text="Welcome to Golf App"
+        android:textAllCaps="true"
+        android:textSize="16sp" />
+
+
+    <Button
+        android:id="@+id/checkbooking"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:background="@color/colorPrimary"
+        android:text="Manage Complaint"
+        android:drawableLeft="@drawable/booking"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/listuser"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:background="@color/colorPrimary"
+        android:text="Profile"
+        android:drawableLeft="@drawable/group"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/sigout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:background="@color/colorPrimary"
+        android:text="logout"
+        android:drawableLeft="@drawable/signout"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:textColor="@color/white" />
+
+
+</LinearLayout>
